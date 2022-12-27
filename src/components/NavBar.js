@@ -1,13 +1,12 @@
-import ButtonGroup from 'antd/es/button/button-group'
 import React from 'react'
 import {Button} from '../design/Design-antd'
+import { Nav } from '../design/Styled-components'
 export const NavBar = () => {
   return (
-    <div>
-    <ButtonGroup>
+    <Nav>
+        <Button href='/'>Home</Button>
         <Button href='/projects' >Meus projetos</Button>
         <Button href='/me' >Sobre mim</Button>
-    </ButtonGroup>
-    </div>
+    </Nav>
   )
 }
