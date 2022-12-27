@@ -1,3 +1,4 @@
-import { Typography,Button,Space} from "antd";
+import { Typography,Button,Space,Divider,Layout} from "antd";
 const {Title} = Typography
-export {Title,Button,Space}
+const {Header,Footer,Sider,Content} = Layout
+export {Title,Button,Space,Divider,Layout,Header,Footer,Sider,Content}

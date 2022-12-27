@@ -1,13 +1,14 @@
 import React from 'react'
-import {Title,Button, Space} from '../design/Design-antd'
+import {Title} from '../design/Design-antd'
+import { Container, ImageProfile } from '../design/Styled-components'
+import MyPhoto from  '../images/MyPhoto.jpg'
 export const Home = () => {
   return (
-    <div>
+    <Container>
         <Title>Olá,Meu nome é Shania</Title>
-        <Space wrap>
-           <Button type='primary' href='/me' size='large'>Sobre mim</Button>
-           <Button type='primary' href='/projects' size='large'>Meus projetos</Button>
-        </Space>
-    </div>
+        <div>
+        <ImageProfile src={MyPhoto} />
+        </div>
+    </Container>
   )
 }

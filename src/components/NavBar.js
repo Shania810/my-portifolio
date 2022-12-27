@@ -1,12 +1,14 @@
 import React from 'react'
 import {Button} from '../design/Design-antd'
-import { Nav } from '../design/Styled-components'
+import { Nav,NavRight } from '../design/Styled-components'
 export const NavBar = () => {
   return (
     <Nav>
-        <Button href='/'>Home</Button>
-        <Button href='/projects' >Meus projetos</Button>
-        <Button href='/me' >Sobre mim</Button>
+        <Button type='primary' href='/'>Home</Button>
+        <NavRight>
+        <Button type='primary' href='/projects' >Meus projetos</Button>
+        <Button type='primary' href='/me' >Sobre mim</Button>
+        </NavRight>
     </Nav>
   )
 }
