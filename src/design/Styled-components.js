@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { Link  as navlink} from 'react-router-dom'
 const Nav = styled.div`
   background: black;
   padding: 20px 10px;
@@ -42,4 +42,8 @@ const Link = styled.a`
   text-decoration: none;
   color: black;
 `
-export {Nav,ImageProfile,Container,NavRight,ImageProject,Card,Icon,Link}
+const NavLink = styled(navlink)`
+  text-decoration: none;
+  color: white;
+`
+export {Nav,ImageProfile,Container,NavRight,ImageProject,Card,Icon,Link,NavLink}
