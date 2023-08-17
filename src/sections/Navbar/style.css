@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 250px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
