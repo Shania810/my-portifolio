@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import api from '../../utils/api.utils'
-import { Skill } from '../../components/Skill'
+import { Skill } from '../../components/Skill/Skill'
 
 export const Skills = () => {
     const [skills, setSkills] = useState([])
