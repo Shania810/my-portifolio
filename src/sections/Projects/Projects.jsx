@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import api from '../../utils/api.utils'
-import { Project } from '../../components/Project'
+import { Project } from '../../components/Project/Project'
 import { Component } from '../../design/Component/Component'
 import './style.css'
 
