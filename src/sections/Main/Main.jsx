@@ -1,14 +1,20 @@
 import React from 'react'
 import imagePerson from '../../images/imagePerson.jpeg'
+import { Component } from '../../design/Component/Component'
+import './style.css'
 
 export const Main = () => {
     return (
         <section>
             <main>
-                <h1>A junior Full-stack developer</h1>
-                <figure>
+                <div id='title' >
+                    <h1>A junior</h1>
+                    <h1>Full-stack developer</h1>
+                    <Component />
+                </div>
+                <div id='image' >
                     <img src={imagePerson} alt={imagePerson} />
-                </figure>
+                </div>
             </main>
         </section>
     )
