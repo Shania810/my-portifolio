@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Space+Mono&display=swap');
 
-.skill{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   background-color: #f5f5f5;
-   padding: 15px;  
-   font-size: 25px;
-   font-family: 'Space Mono', monospace;
-   border-radius: 5px;
+.skill {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    border-radius: 5px;
 }
 
-.skill img{
-    width: 120px;
+.skill img {
+    width: 90px;
 }
