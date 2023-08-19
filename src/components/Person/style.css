@@ -1,0 +1,10 @@
+.figure-person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.figure-person img{
+    width: 100px;
+    border-radius: 10px;
+}
