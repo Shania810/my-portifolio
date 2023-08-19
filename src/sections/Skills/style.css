@@ -1,0 +1,30 @@
+#section-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+#section-skills>div {
+    width: 85%;
+}
+
+#section-skills h2 {
+    font-size: 30px;
+}
+
+#section-skills-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#row {
+    background-color: #83AEFD;
+    width: 80%;
+    height: 15px;
+    border-radius: 5px;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+}

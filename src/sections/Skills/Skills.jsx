@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import api from '../../utils/api.utils'
 import { Skill } from '../../components/Skill/Skill'
+import './style.css'
 
 export const Skills = () => {
     const [skills, setSkills] = useState([])
@@ -18,12 +19,17 @@ export const Skills = () => {
     }, [])
 
     return (
-        <section>
-            <title>Skills</title>
+        <section id='section-skills' >
             <div>
-                {skills.map((skill) => {
-                    return <Skill skill={skill} />
-                })}
+                <div id='section-skills-title' >
+                    <h2>Skills</h2>
+                    <div id='row' ></div>
+                </div>
+                <div id='skills' >
+                    {skills.map((skill) => {
+                        return <Skill skill={skill} />
+                    })}
+                </div>
             </div>
         </section>
     )
