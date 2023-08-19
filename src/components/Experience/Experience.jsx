@@ -10,7 +10,9 @@ export const Experience = ({ experience }) => {
             <Company company={company} />
             <time>{duration}</time>
             <p>{description}</p>
-            {skills.map((skill) => <Badge skill={skill} />)}
+            <div id='badges' >
+                {skills.map((skill) => <Badge skill={skill} />)}
+            </div>
         </div>
     )
 }

@@ -9,3 +9,8 @@
 #experience time, #experience>p {
     color: #4A4A4A;
 }
+
+#badges {
+    display: flex;
+    flex-wrap: wrap;
+}
