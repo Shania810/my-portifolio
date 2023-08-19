@@ -1,10 +1,11 @@
 import React from 'react'
+import './style.css'
 
 export const Badge = ({ skill }) => {
     const { title } = skill
     return (
         <>
-            <span>{title}</span>
+            <span className='badge' >{title}</span>
         </>
     )
 }
