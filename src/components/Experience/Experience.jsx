@@ -1,6 +1,6 @@
 import React from 'react'
 import { Company } from '../Company/Company'
-import { Badge } from '../Badge'
+import { Badge } from '../Badge/Badge'
 import './style.css'
 
 export const Experience = ({ experience }) => {
