@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import api from '../../utils/api.utils'
 import { Experience } from '../../components/Experience'
+import { BsAsterisk } from 'react-icons/bs'
+import './style.css'
 
 export const Experiences = () => {
     const [experiences, setExperiences] = useState([])
@@ -17,15 +19,22 @@ export const Experiences = () => {
     }, [])
 
     return (
-        <section>
+        <section id='section-experiences' >
             <div>
-                <title>Last Experiences</title>
-                <span>Description</span>
-            </div>
-            <div>
-                {experiences.map((experience) => {
-                    return <Experience experience={experience} />
-                })}
+                <div id='section-experiences-title'>
+                    <div >
+                        <h2>Last experiences</h2>
+                        <span>Description</span>
+                    </div>
+                    <div>
+                        <BsAsterisk color='#83AEFD' size='70' />
+                    </div>
+                </div>
+                <div id='experiences' >
+                    {experiences.map((experience) => {
+                        return <Experience experience={experience} />
+                    })}
+                </div>
             </div>
         </section>
     )
