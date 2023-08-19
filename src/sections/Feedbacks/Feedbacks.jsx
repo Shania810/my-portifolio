@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import api from '../../utils/api.utils'
 import { Feedback } from '../../components/Feedback'
+import { Component } from '../../design/Component/Component'
+import './style.css'
 
 export const Feedbacks = () => {
     const [feedbacks, setFeedbacks] = useState([])
@@ -18,14 +20,17 @@ export const Feedbacks = () => {
 
 
     return (
-        <section>
+        <section id='section-feedbacks' >
             <div>
-                <title>What they say about my work</title>
-            </div>
-            <div>
-                {feedbacks.map((feedback) => {
-                    return <Feedback feedback={feedback} />
-                })}
+                <div id='section-feedbacks-title' >
+                    <h2>What they say about my work</h2>
+                    <Component />
+                </div>
+                <div id='feedbacks' >
+                    {feedbacks.map((feedback) => {
+                        return <Feedback feedback={feedback} />
+                    })}
+                </div>
             </div>
         </section>
     )
