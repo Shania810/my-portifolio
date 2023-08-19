@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import api from '../../utils/api.utils'
-import { Feedback } from '../../components/Feedback'
+import { Feedback } from '../../components/Feedback/Feedback'
 import { Component } from '../../design/Component/Component'
 import './style.css'
 

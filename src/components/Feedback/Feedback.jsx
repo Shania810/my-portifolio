@@ -1,5 +1,5 @@
 import React from 'react'
-import { Person } from './Person'
+import { Person } from '../Person'
 
 export const Feedback = ({ feedback }) => {
     const { person, description } = feedback
