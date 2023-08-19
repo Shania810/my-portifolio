@@ -3,6 +3,6 @@
     width: 45%;
 }
 
-#experience time, #experience p {
+#experience time, #experience > p {
     color: #4A4A4A;
 }

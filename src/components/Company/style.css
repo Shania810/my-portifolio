@@ -1,0 +1,9 @@
+.figure-company>p {
+    font-weight: 900;
+    font-size: large;
+}
+
+.figure-company img {
+    width: 80px;
+    border-radius: 5px;
+}

@@ -16,3 +16,8 @@
 #section-experiences h2 {
     font-size: 33px;
 }
+
+#experiences {
+    display: flex;
+    flex-wrap: wrap;
+}
