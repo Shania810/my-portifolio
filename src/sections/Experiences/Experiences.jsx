@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import api from '../../utils/api.utils'
-import { Experience } from '../../components/Experience'
+import { Experience } from '../../components/Experience/Experience'
 import { BsAsterisk } from 'react-icons/bs'
 import './style.css'
 
