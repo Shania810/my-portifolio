@@ -1,8 +1,11 @@
 #experience {
     background-color: #f5f5f5;
-    width: 45%;
+    width: 35%;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 10px;
 }
 
-#experience time, #experience > p {
+#experience time, #experience>p {
     color: #4A4A4A;
 }
