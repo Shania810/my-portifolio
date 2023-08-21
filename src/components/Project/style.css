@@ -1,6 +1,11 @@
-.project{
+.project {
     width: 40%;
     background-color: #f5f5f5;
     border-radius: 8px;
     padding: 50px 25px 25px 25px;
+}
+
+.project img {
+    width: 400px;
+    border-radius: 10px;
 }
