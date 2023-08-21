@@ -21,14 +21,16 @@ export const Projects = () => {
 
     return (
         <section id='section-projects' >
-            <div id='section-projects-title' >
-                <h2>Projects</h2>
-                <Component />
-            </div>
-            <div id='projects' >
-                {projects.map((project) => {
-                    return <Project project={project} />
-                })}
+            <div>
+                <div id='section-projects-title' >
+                    <h2>Projects</h2>
+                    <Component />
+                </div>
+                <div id='projects' >
+                    {projects.map((project) => {
+                        return <Project project={project} />
+                    })}
+                </div>
             </div>
         </section>
     )
