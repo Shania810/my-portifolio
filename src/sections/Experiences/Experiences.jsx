@@ -22,7 +22,7 @@ export const Experiences = () => {
         <section id='section-experiences' >
             <div>
                 <div id='section-experiences-title'>
-                    <div >
+                    <div>
                         <h2>Last experiences</h2>
                         <span>Description</span>
                     </div>
