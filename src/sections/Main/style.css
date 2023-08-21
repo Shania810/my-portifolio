@@ -17,6 +17,7 @@ main {
     border-radius: 5px;
     width: 40%;
     height: 450px;
+    padding-right: 50px;
 }
 
 #image>img {
