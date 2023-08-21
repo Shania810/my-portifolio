@@ -1,11 +1,26 @@
-blue {
+#component {
+    display: flex;
+    flex-direction: row;
+}
+
+#blue {
     background-color: #83AEFD;
+    width: 120px;
+    height: 18px;
+    border-radius: 5px;
 }
 
-purple {
+#purple {
     background-color: #C49CD6;
+    width: 50px;
+    height: 18px;
+    border-radius: 5px;
+    margin: 0 10px 0 20px;
 }
 
-green {
+#green {
     background-color: #BAD897;
+    width: 80px;
+    height: 18px;
+    border-radius: 5px;
 }
