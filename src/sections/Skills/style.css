@@ -17,13 +17,6 @@
     align-items: center;
 }
 
-#row {
-    background-color: #83AEFD;
-    width: 80%;
-    height: 15px;
-    border-radius: 5px;
-}
-
 #skills {
     display: flex;
     flex-wrap: wrap;

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import api from '../../utils/api.utils'
 import { Skill } from '../../components/Skill/Skill'
+import { Component } from '../../design/Component/Component'
 import './style.css'
 
 export const Skills = () => {
@@ -23,7 +24,7 @@ export const Skills = () => {
             <div>
                 <div id='section-skills-title' >
                     <h2>Skills</h2>
-                    <div id='row' ></div>
+                    <Component />
                 </div>
                 <div id='skills' >
                     {skills.map((skill) => {
