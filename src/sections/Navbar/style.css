@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 nav>div {
@@ -19,5 +19,5 @@ nav img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 20%;
+    width: 200px;
 }
