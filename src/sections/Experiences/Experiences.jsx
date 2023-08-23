@@ -24,7 +24,6 @@ export const Experiences = () => {
                 <div id='section-experiences-title'>
                     <div>
                         <h2>Last experiences</h2>
-                        <span>Description</span>
                     </div>
                     <div>
                         <BsAsterisk color='#83AEFD' size='70' />
