@@ -10,7 +10,7 @@ export const RowSkill = () => {
         const allSkills = async () => {
             try {
                 const skills = await api.getSkills()
-                setSkills(skills.slice(0, 10))
+                setSkills(skills)
             } catch (error) {
                 console.log(error)
             }
@@ -23,7 +23,7 @@ export const RowSkill = () => {
             {skills.map((skill, index) => {
                 return <div>
                     <span>{skill.title}</span>
-                    {index !== skills.length - 1 && <BiSolidCircle color='#CECECE' size='10' />}
+                    {index !== skills.length - 1 && <BiSolidCircle color='#CECECE' size='15' />}
                 </div>
             })}
         </div>

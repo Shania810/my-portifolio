@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 #rowSkill {
+    width: 100%;
     margin: 50px 0;
     font-family: 'Space Mono', monospace;
     font-size: 20px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #rowSkill span {
-    margin: 0 10px;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 1500px) {
+    #rowSkill>div {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #rowSkill {
+        justify-content: space-between;
+    }
 }
